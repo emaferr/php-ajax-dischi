@@ -3057,6 +3057,22 @@ function within(min, value, max) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 
+var app = new Vue({
+  el: '#app',
+  data: {
+    albums: null
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    axios.get('../api/albums.php').then(function (resp) {
+      _this.albums = resp.data;
+      console.log(_this.albums);
+    })["catch"](function (e) {
+      console.log(e);
+    });
+  }
+});
 
 /***/ }),
 
