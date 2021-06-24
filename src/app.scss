@@ -1,1 +1,16 @@
+// Bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+// Site
+@import 'partials/variables.scss';
+@import 'partials/mixin.scss';
+@import 'partials/common.scss';
+
+// Header
+@import 'partials/header.scss';
+
+// Main
+@import 'partials/main.scss';
+
+// Footer
+@import 'partials/footer.scss';
