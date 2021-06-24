@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.0-beta3 (https://getbootstrap.com/)
@@ -10826,4 +10827,15 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg_card {
+  background-color: #2E3A46;
+}
+
+.bg_body {
+  background-color: #1E2D3B;
 }
